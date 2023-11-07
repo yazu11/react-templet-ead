@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#hero {
+  background-color: cyan;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.area {
+  background-color: cyan;
+}
+
+#hello {
+  margin-top: 90px;
+  color: lime;
+}
+
+#welcome {
+  font-size: 80px;
+  font-weight: 400;
+  color: yellow;
+}
+
+#myname {
+  margin-left: 130px;
+  font-size: 30px;
+  font-weight: 400;
+  color: yellow;
+  /* margin-bottom: 200px; */
+}
+
+#mypic {
+  object-fit: cover;
+  margin-top: 90px;
+}
+
+#prog {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+  
+}
+
+#pb1 {
+  width: 65%;
+}
+
+#pb2 {
+  width: 50%;
+}
+
+#pb3 {
+  width: 75%;
+}
+
+#pb4 {
+  width: 90%;
+}
+
+#pb5 {
+  width: 85%;
+}
+
+.bgi {
+  background-image: url('../public/assets/back.png');
+  background-size: cover;
+  
+}
+
+.btn {
+  margin-top: 50px;
+  margin-left: 145px;
+  margin-bottom: 100px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
